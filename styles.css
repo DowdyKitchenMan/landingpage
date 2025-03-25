@@ -1,0 +1,192 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.left-main {
+    margin: 0 23rem 0 0;
+}
+
+.left-main h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.left-main p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.left-main button {
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.main {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.links li {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.body-title {
+    text-align: center;
+    color: #1F2937;
+}
+
+.body-title h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card {
+    width: 180px;
+}
+
+.card img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.card p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAF8;
+}
+
+.quote {
+    margin: 4rem 35rem;
+    width: 40%;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    margin: 0;
+}
+
+.quote h2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 1.5rem 4rem;
+    margin: 2rem 4rem;
+    width: 40%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: inherit;
+}
+
+.modal button {
+    margin: 1rem 0rem 1rem 1rem;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: thick;
+}
+
+.text h3 {
+    color: #F9FAF8;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.text p {
+    color: #F9FAF8;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2rem;
+}
